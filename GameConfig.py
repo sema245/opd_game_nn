@@ -1,0 +1,21 @@
+class GameConfig:
+    WIDTH = 800
+    HEIGHT = 600
+
+    WHITE = (255, 255, 255)
+    BLACK = (0, 0, 0)
+    RED = (255, 0, 0)
+    BLUE = (0, 0, 255)
+    GREEN = (0, 255, 0)
+    YELLOW = (255, 255, 0)
+
+    PLAYER_WIDTH = 30
+    PLAYER_HEIGHT = 30
+    PLAYER_SPEED = 10
+    PLAYER_COLOR = BLUE
+    PROJECTILE_WIDTH = 5
+    PROJECTILE_HEIGHT = 10
+    PROJECTILE_SPEED = 15    #Projectile speed
+    PROJECTILE_COLOR = RED
+
+    SHOOT_COOLDOWN = 40
